@@ -16,7 +16,7 @@ Este projeto tem como objetivo entrar no roteador e realizar a alteração de se
       
       - Adicione configurações do selenium para desabilitar a tela de visualização.
       
-      - Crie o driver e realize a execução do mesmo.
+      - Crie o driver, adicione o caminho onde ele foi instalado e realize a execução do mesmo.
       
       - Neste momento pode inserir o usuário e a senha do roteador obtendo o id das suas respectivas inputs no HTML.
       
