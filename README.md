@@ -4,9 +4,9 @@ Este projeto tem como objetivo entrar no roteador e realizar a alteração de se
 
   - Arquivos:
   
-    - acessar_roteador.py: Este é o código executavel, onde o usuário insere o nome e senha do roteador para acessa-lo, como também a nova senha que deseja para a sua rede Wireless
+    - acessar_roteador.py: Este é o código executavel, onde o usuário insere o nome e senha do roteador para acessa-lo, como também, a nova senha que deseja para a sua rede Wireless. Este código não gera interface, por favor abra o mesmo e verifique nos comentários os locais para inserir usuário e senha do seu roteador e Wifi.
     
-    - Read me: Descrcrição do projeto
+    - Read me: Descrição do projeto
     
   - Bibliotecas:
     
