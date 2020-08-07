@@ -16,7 +16,7 @@ Este projeto tem como objetivo entrar no roteador e realizar a alteração de se
       
       - Adicione configurações do selenium para desabilitar a tela de visualização.
       
-      - Crie o driver e realize a exeutação do mesmo.
+      - Crie o driver e realize a execução do mesmo.
       
       - Neste momento pode inserir o usuário e a senha do roteador obtendo o id das suas respectivas inputs no HTML.
       
@@ -24,11 +24,11 @@ Este projeto tem como objetivo entrar no roteador e realizar a alteração de se
       
       - Adicione a time.sleep para que dê tempo de carregar a página de configurações completa.
       
-      - A página do Tp 840 é toda feita com iframes, que são outros HTML's dentro de um único site. Então é necessário adicionar um comando de switch iframe para que possamos nevegar entre os diferentes códigos HTML.
+      - A página do Tp 840 é toda feita com iframes, que são outros HTML's dentro de um único site. Então é necessário adicionar um comando de switch iframe para que possa nevegar entre os diferentes códigos HTML.
       
-      - Acesse o id iframe1, que é a tela onde contém o menu principal, após isso pegue a classe HTML referente ao caminho onde você deseja ir e clicar nas opções do menu até chegar na troca de senha. Obs: Quando contém mais de um elemento com o mesmo 'nome' é criada uma lista com todas as opções, isso acontece em casos de classes HTML, já que pode ter mais de uma com o mesmo nome. 
+      - Acesse o id iframe1, que é a tela onde contém o menu principal. Após isso, pegue as classes HTML referente as duas opções anteriores para chegar na troca senha. Obs: Por se tratar de uma classe, há mais de um elemento com o mesmo 'nome', então criada-se uma lista com todos os elementos que têm a classe. Nesses casos que contém mais de um elemento com o mesmo nome, é necessário contar quantos elementos há até a opção que você deseja. Para chegar na opção Wireless é a quarta opção. Enquanto que, para chegar em Segurança Wireless é a sexta opção. Então acesse respecivamente cada elemento da lista.  
       
-      - Após apresentar a sua atual senha, mude para a iframe2 e insira a classe que representa a input onde contém a senha. Nesta é necessária fazer uma ação de clique, limpar o conteúdo atual, por fim adicionar a nova senha.
+      - Após apresentar a sua atual senha, mude para a id iframe2 e insira a id que representa a input da senha. Na input é necessária fazer uma ação de clique, limpar o conteúdo atual e por fim adicionar a nova senha.
       
       - Para finalizar use a classe que representa o botão salvar e execute a ação de clique.
       
